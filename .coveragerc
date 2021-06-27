@@ -1,0 +1,17 @@
+[run]
+omit =
+    venv/*
+    tests/*
+branch = True
+
+[report]
+fail_under = 90
+show_missing = True
+omit =
+    venv/*
+    tests/*
+skip_empty = True
+skip_covered = True
+
+[html]
+directory = coverage_html_report
